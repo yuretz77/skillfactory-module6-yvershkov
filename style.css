@@ -1,0 +1,137 @@
+/* .item-0 {
+  background-color:rgb(246, 182, 7);
+}
+.item-1 {
+  background-color: rgb(161, 144, 48);
+}
+
+.item-2 {
+  background-color: rgb(49, 163, 68);
+}
+
+.item-3 {
+  background-color: rgb(34, 32, 180);
+}
+
+.item-4 {
+  background-color: rgb(207, 219, 29);
+}
+
+.item-5 {
+  background-color: rgb(175, 52, 165);
+}
+.item-6 {
+  background-color:rgb(246, 182, 7);
+}
+.item-7 {
+  background-color: rgb(161, 144, 48);
+}
+
+.item-8 {
+  background-color: rgb(49, 163, 68);
+}
+
+.item-9 {
+  background-color: rgb(34, 32, 180);
+}
+
+.item-10 {
+  background-color: rgb(207, 219, 29);
+}
+
+.item-11 {
+  background-color: rgb(175, 52, 165);
+}
+.item-12 {
+  background-color: rgb(243, 31, 12);
+} */
+/* .grid-wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+} */
+
+/* .grid-wrapper {
+  display: grid;
+  grid-template-columns:500px 200px;
+  grid-template-rows:100px 300px 100px;
+}  */
+/* .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(3, 100px);
+} */
+
+
+/* .grid-wrapper-0 {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: auto;
+}  */
+
+/* .grid-wrapper {
+
+  display: grid;
+  
+  grid-template-columns: repeat(4,1fr);
+  
+  grid-template-rows:repeat(3,500px);
+  
+  } */
+
+  /* .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: auto;
+} */
+/* h1, h2, button {
+  text-align:center;
+} */
+.container>.grid-wrapper {
+  justify-content: center;
+}
+.grid-wrapper 
+  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+    grid-template-rows: auto;
+    grid-gap: 1hv;
+}
+.grid-item-0{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+  grid-template-rows: auto;
+  grid-gap: 1hv;
+  justify-items: start;
+  align-items: start;
+ }
+
+   
+
+/* .grid-item {
+    min-height: 10vh;
+    background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+} */
+
+
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
